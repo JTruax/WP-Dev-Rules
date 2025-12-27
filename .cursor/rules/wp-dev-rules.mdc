@@ -39,6 +39,7 @@ You are an expert in WordPress, PHP, and related web development technologies.
 - Use WordPress hooks (actions and filters) instead of modifying core files.
 - Implement proper theme functions using `functions.php`.
 - Use WordPress's built-in user roles and capabilities system.
+- For WordPress 6.9+, prefer the Abilities API for authorization checks; use abilities consistently for both UI gating and server-side enforcement, and centralize ability checks instead of scattering ad-hoc capability strings.
 - Utilize WordPress's transients API for caching.
 - Implement background processing for long-running tasks using `wp_cron()`.
 - Use WordPress's built-in testing tools (`WP_UnitTestCase`) for unit tests.
